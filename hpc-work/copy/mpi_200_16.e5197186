@@ -1,0 +1,24 @@
+CMake Warning (dev) at CMakeLists.txt:23 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable MPI_ROOT is set to:
+
+    /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeTmp/CMakeLists.txt:18:
+  Parse error.  Expected "(", got quoted argument with text "MPI::MPI_CXX".
+
+
+CMake Error at /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindMPI.cmake:1213 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindMPI.cmake:1264 (_MPI_try_staged_settings)
+  /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindMPI.cmake:1529 (_MPI_check_lang_works)
+  CMakeLists.txt:23 (find_package)
+
+

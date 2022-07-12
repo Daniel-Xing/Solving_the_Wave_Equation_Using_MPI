@@ -1,0 +1,206 @@
+-- Could NOT find MPI_C (missing: MPI_C_WORKS) 
+-- Could NOT find MPI_CXX (missing: MPI_CXX_WORKS) 
+-- Configuring incomplete, errors occurred!
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeOutput.log".
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeError.log".
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5197456.pbs at Thu 24 Feb 23:15:24 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider mlx
+# mpiexec: libfabric inferface  eth0
+# mpiexec: external collectives 1
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork
+# mpiexec: program arguments are: 300
+# mpiexec: 16 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 16 ranks per node
+# mpiexec: There are 256 cores/node. 16 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-6-2.cx3.hpc.ic.ac.uk:16
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-6-2.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork:
+	linux-vdso.so.1 (0x00007ffcf60d6000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpicxx.so.12 (0x000014e23c738000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x000014e23c379000)
+	libmpi.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x000014e23b15d000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x000014e23af59000)
+	librt.so.1 => /lib64/librt.so.1 (0x000014e23ad50000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014e23ab30000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x000014e23a79b000)
+	libm.so.6 => /lib64/libm.so.6 (0x000014e23a419000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x000014e23a201000)
+	libc.so.6 => /lib64/libc.so.6 (0x000014e239e3f000)
+	libfabric.so.1 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x000014e239bfd000)
+	/lib64/ld-linux-x86-64.so.2 (0x000014e23c958000)
+# mpiexec: launch started at Thu 24 Feb 23:15:24 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork 300
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-6-2.cx3.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+
+processor 7 has finished the init 
+processor 7 has started the find 
+processor 7 has finished the find 
+processor 7 starts to init location info 
+processor 7 ends to init location info 
+processor 11 has finished the init 
+processor 11 has started the find 
+processor 11 has finished the find 
+processor 11 starts to init location info 
+processor 11 ends to init location info 
+processor 7 starts to half_sinusoidal_intitial_disturbance 
+processor 11 starts to half_sinusoidal_intitial_disturbance 
+processor 7 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 7 starts to grid_to_file 
+processor 7 ends to grid_to_file 
+processor 13 has finished the init 
+processor 13 has started the find 
+processor 13 has finished the find 
+processor 13 starts to init location info 
+processor 13 ends to init location info 
+processor 11 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 11 starts to grid_to_file 
+processor 11 ends to grid_to_file 
+processor 13 starts to half_sinusoidal_intitial_disturbance 
+processor 12 has finished the init 
+processor 12 has started the find 
+processor 12 has finished the find 
+processor 12 starts to init location info 
+processor 12 ends to init location info 
+processor 13 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 13 starts to grid_to_file 
+processor 13 ends to grid_to_file 
+processor 12 starts to half_sinusoidal_intitial_disturbance 
+processor 12 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 12 starts to grid_to_file 
+processor 12 ends to grid_to_file 
+processor 10 has finished the init 
+processor 10 has started the find 
+processor 10 has finished the find 
+processor 10 starts to init location info 
+processor 10 ends to init location info 
+processor 5 has finished the init 
+processor 5 has started the find 
+processor 5 has finished the find 
+processor 5 starts to init location info 
+processor 5 ends to init location info 
+processor 10 starts to half_sinusoidal_intitial_disturbance 
+processor 5 starts to half_sinusoidal_intitial_disturbance 
+processor 6 has finished the init 
+processor 6 has started the find 
+processor 6 has finished the find 
+processor 6 starts to init location info 
+processor 6 ends to init location info 
+processor 10 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 10 starts to grid_to_file 
+processor 10 ends to grid_to_file 
+processor 5 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 5 starts to grid_to_file 
+processor 5 ends to grid_to_file 
+processor 6 starts to half_sinusoidal_intitial_disturbance 
+processor 2 has finished the init 
+processor 2 has started the find 
+processor 2 has finished the find 
+processor 2 starts to init location info 
+processor 2 ends to init location info 
+processor 6 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 6 starts to grid_to_file 
+processor 6 ends to grid_to_file 
+processor 2 starts to half_sinusoidal_intitial_disturbance 
+processor 2 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 2 starts to grid_to_file 
+processor 2 ends to grid_to_file 
+processor processor 159 has finished the init 
+processor 9 has started the find 
+processor 9 has finished the init 
+processor 15 has started the find 
+processor 15 has finished the find 
+processor 15 starts to init location info 
+processor 15processor 1 has finished the init processor  has finished the find 
+processor 9 starts to init location info 
+processor 9 ends to init location info 
+ ends to init location info 
+
+processor 1 has started the find 
+processor 1 has finished the find 
+processor 1 starts to init location info 
+processor 1 location info:
+ local_row: 0   local_col: 1
+4 has finished the init 
+processor  _chunk_row_size: 75 chunk_col_size: 75
+ _col_low_index: 75 _col_high_index: 150
+ _row_low_index: 0 _row_high_index: 75
+ ghost_chunk_row_size: 76 ghost_chunk_col_size: 77
+ ghost_col_low_index: 744 has started the find 
+processor 4 has finished the find 
+processor 4 starts to init location info 
+processor 4 ends to init location info processor 8 has finished the init 
+processor 8 has started the find 
+processor 8 has finished the find 
+processor 8 starts to init location info 
+processor 8 ends to init location info 
+ ghost_col_high_index: 151
+ ghost_row_low_index: 0 ghost_row_high_index: 76
+ total_size: 5852
+
+processor 1 ends to init location info 
+
+processor 15 starts to half_sinusoidal_intitial_disturbance 
+processor processor 9 starts to half_sinusoidal_intitial_disturbance 
+3 has finished the init 
+processor 3 has started the find 
+processor 3 has finished the find 
+processor 3 starts to init location info 
+processor 3 ends to init location info 
+processor 8 starts to half_sinusoidal_intitial_disturbance 
+processor 1 starts to half_sinusoidal_intitial_disturbance 
+processor 15 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 15 starts to grid_to_file 
+processor 15 ends to grid_to_file 
+processor 4 starts to half_sinusoidal_intitial_disturbance 
+processor 3 starts to half_sinusoidal_intitial_disturbance 
+processor 8 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 8 starts to grid_to_file 
+processor 8 ends to grid_to_file 
+processor 14 has finished the init 
+processor 14 has started the find 
+processor 14 has finished the find 
+processor 14 starts to init location info 
+processor 14 ends to init location info 
+processor 1 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 1 starts to grid_to_file 
+processor 1 ends to grid_to_file 
+processor 3 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 3 starts to grid_to_file 
+processor 3 ends to grid_to_file 
+processor 9 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 9 starts to grid_to_file 
+processor 9 ends to grid_to_file 
+processor 14 starts to half_sinusoidal_intitial_disturbance 
+processor 4 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 4 starts to grid_to_file 
+processor 4 ends to grid_to_file 
+processor 0 has finished the init 
+processor 0 has started the find 
+processor 0 has finished the find 
+processor 0 starts to init location info 
+processor 0 ends to init location info 
+processor 14 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 14 starts to grid_to_file 
+processor 14 ends to grid_to_file 
+processor 0 starts to half_sinusoidal_intitial_disturbance 
+processor 0 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 0 starts to grid_to_file 
+processor 0 ends to grid_to_file 
+wave_equation (16)   1.773239
+# mpiexec: finished at Thu 24 Feb 23:15:27 GMT 2022

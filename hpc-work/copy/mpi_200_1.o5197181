@@ -1,0 +1,61 @@
+-- Could NOT find MPI_C (missing: MPI_C_WORKS) 
+-- Could NOT find MPI_CXX (missing: MPI_CXX_WORKS) 
+-- Configuring incomplete, errors occurred!
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeOutput.log".
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeError.log".
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5197181.pbs at Thu 24 Feb 22:39:04 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider mlx
+# mpiexec: libfabric inferface  eth0
+# mpiexec: external collectives 1
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork
+# mpiexec: program arguments are: 400
+# mpiexec: 1 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 1 ranks per node
+# mpiexec: There are 256 cores/node. 1 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-7-16.cx3.hpc.ic.ac.uk:1
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-7-16.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork:
+	linux-vdso.so.1 (0x00007ffeb83d5000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpicxx.so.12 (0x0000148a501d3000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x0000148a4fe14000)
+	libmpi.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x0000148a4ebf8000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x0000148a4e9f4000)
+	librt.so.1 => /lib64/librt.so.1 (0x0000148a4e7eb000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000148a4e5cb000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x0000148a4e236000)
+	libm.so.6 => /lib64/libm.so.6 (0x0000148a4deb4000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x0000148a4dc9c000)
+	libc.so.6 => /lib64/libc.so.6 (0x0000148a4d8da000)
+	libfabric.so.1 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x0000148a4d698000)
+	/lib64/ld-linux-x86-64.so.2 (0x0000148a503f3000)
+# mpiexec: launch started at Thu 24 Feb 22:39:05 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork 400
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-7-16.cx3.hpc.ic.ac.uk:0)
+
+processor 0 has finished the init 
+processor 0 has started the find 
+processor 0 has finished the find 
+processor 0 starts to init location info 
+processor 0 ends to init location info 
+processor 0 starts to half_sinusoidal_intitial_disturbance 
+processor 0 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 0 starts to grid_to_file 
+processor 0 ends to grid_to_file 
+wave_equation (1)  57.504014
+# mpiexec: finished at Thu 24 Feb 22:40:04 GMT 2022

@@ -1,0 +1,14 @@
+#PBS -N mpi_test_2
+#PBS -l walltime=1:00:00
+#PBS -l select=1:ncpus=16:mpiprocs=16:mem=1GB
+
+module load intel-suite/2019.4
+module load mpi/intel-2019.8.254
+module load cmake/3.18.2 
+
+
+cd /rds/general/user/dx121/home/mpi-coursework-acse-dx121
+cd Tests
+mpicxx TestMpi.cpp -o test
+mpiexec ~/mpi-coursework-acse-dx121/Tests/test
+

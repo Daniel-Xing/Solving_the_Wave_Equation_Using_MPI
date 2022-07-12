@@ -1,0 +1,36 @@
+CMake Warning (dev) at CMakeLists.txt:23 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable MPI_ROOT is set to:
+
+    /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in /rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeTmp/CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:165 (message):
+  Could NOT find MPI (missing: MPI_C_FOUND MPI_CXX_FOUND)
+
+      Reason given by package: MPI component 'Fortran' was requested, but language Fortran is not enabled.  
+
+Call Stack (most recent call first):
+  /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:458 (_FPHSA_FAILURE_MESSAGE)
+  /rds/general/applications/cmake/3.18.2/share/cmake-3.18/Modules/FindMPI.cmake:1721 (find_package_handle_standard_args)
+  CMakeLists.txt:23 (find_package)
+
+

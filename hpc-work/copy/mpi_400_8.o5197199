@@ -1,0 +1,143 @@
+-- Could NOT find MPI_C (missing: MPI_C_WORKS) 
+-- Configuring incomplete, errors occurred!
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeOutput.log".
+See also "/rds/general/user/dx121/home/mpi-coursework-acse-dx121/build/CMakeFiles/CMakeError.log".
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5197199.pbs at Thu 24 Feb 22:39:58 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX1-ETH
+# mpiexec: libfabric provider tcp
+# mpiexec: libfabric inferface eth0 
+# mpiexec: external collectives 0
+# mpiexec: MPI-IO configuration on / nfs
+# mpiexec: full path to program is /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork
+# mpiexec: program arguments are: 400
+# mpiexec: 8 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 8 ranks per node
+# mpiexec: There are 40 cores/node. 8 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx1-106-17-2.cx1.hpc.ic.ac.uk:8
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx1-106-17-2.cx1.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork:
+	linux-vdso.so.1 (0x00007ffc4856d000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpicxx.so.12 (0x000014d38d00f000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x000014d38cc50000)
+	libmpi.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x000014d38ba34000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x000014d38b830000)
+	librt.so.1 => /lib64/librt.so.1 (0x000014d38b627000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014d38b407000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x000014d38b072000)
+	libm.so.6 => /lib64/libm.so.6 (0x000014d38acf0000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x000014d38aad8000)
+	libc.so.6 => /lib64/libc.so.6 (0x000014d38a716000)
+	libfabric.so.1 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x000014d38a4d4000)
+	/lib64/ld-linux-x86-64.so.2 (0x000014d38d22f000)
+# mpiexec: launch started at Thu 24 Feb 22:39:58 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork 400
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx1-106-17-2.cx1.hpc.ic.ac.uk:0,1,2,3,4,5,6,7)
+
+processor 5 has finished the init 
+processor 5 has started the find 
+processor 5 has finished the find 
+processor 5 starts to init location info 
+processor 5 ends to init location info 
+processor 3 has finished the init 
+processor 3 has started the find 
+processor 3 has finished the find 
+processor 3 starts to init location info 
+processor 3 ends to init location info 
+processor 5 starts to half_sinusoidal_intitial_disturbance 
+processor 3 starts to half_sinusoidal_intitial_disturbance 
+processor 5 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 5 starts to grid_to_file 
+processor 5 ends to grid_to_file 
+processor 3 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 3 starts to grid_to_file 
+processor 3 ends to grid_to_file 
+processor 2 has finished the init 
+processor 2 has started the find 
+processor 2 has finished the find 
+processor 2 starts to init location info 
+processor 2 ends to init location info 
+processor 2 starts to half_sinusoidal_intitial_disturbance 
+processor 2 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 2 starts to grid_to_file 
+processor 2 ends to grid_to_file 
+processor 1 has finished the init 
+processor 1 has started the find 
+processor 1 has finished the find 
+processor 1 starts to init location info 
+processor 1 location info:
+ local_row: 0   local_col: 1
+ _chunk_row_size: 200 chunk_col_size: 100
+ _col_low_index: 100 _col_high_index: 200
+ _row_low_index: 0 _row_high_index: 200
+ ghost_chunk_row_size: 201 ghost_chunk_col_size: 102
+ ghost_col_low_index: 99 ghost_col_high_index: 201
+ ghost_row_low_index: 0 ghost_row_high_index: 201
+ total_size: 20502
+
+processor 1 ends to init location info 
+processor 7 has finished the init 
+processor 7 has started the find 
+processor 7 has finished the find 
+processor 7 starts to init location info 
+processor 7 ends to init location info 
+processor 1 starts to half_sinusoidal_intitial_disturbance 
+processor 7 starts to half_sinusoidal_intitial_disturbance 
+processor 7 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 7 starts to grid_to_file 
+processor 7 ends to grid_to_file 
+processor 1 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 1 starts to grid_to_file 
+processor 1 ends to grid_to_file 
+processor 0 has finished the init 
+processor 0 has started the find 
+processor 0 has finished the find 
+processor 0 starts to init location info 
+processor 0 ends to init location info 
+processor 0 starts to half_sinusoidal_intitial_disturbance 
+processor 0 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 0 starts to grid_to_file 
+processor 0 ends to grid_to_file 
+processor processor 6 has finished the init 
+4 has finished the init 
+processor 4 has started the find 
+processor 4processor 6 has started the find 
+processor 6 has finished the find 
+processor 6 has finished the find 
+processor 4 starts to init location info 
+processor 4 ends to init location info  starts to init location info 
+processor 6 ends to init location info 
+
+processor 4 starts to half_sinusoidal_intitial_disturbance 
+processor 6 starts to half_sinusoidal_intitial_disturbance 
+processor 4 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 4 starts to grid_to_file 
+processor 4 ends to grid_to_file 
+processor 6 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 6 starts to grid_to_file 
+processor 6 ends to grid_to_file 
+wave_equation (8)   7.975288
+# mpiexec: finished at Thu 24 Feb 22:40:07 GMT 2022
+
+============================================
+
+        Job resource usage summary 
+
+                 Memory (GB)    NCPUs
+ Requested  :         4             8
+ Used       :         0 (peak)   4.70 (ave)
+
+============================================

@@ -1,0 +1,639 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/build
+[100%] Built target MPI-CourseWork
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5197542.pbs at Fri 25 Feb 02:19:48 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider mlx
+# mpiexec: libfabric inferface  eth0
+# mpiexec: external collectives 1
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork
+# mpiexec: program arguments are: 400
+# mpiexec: 64 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 32 ranks per node
+# mpiexec: There are 256 cores/node. 32 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-3-11.cx3.hpc.ic.ac.uk:32
+cx3-3-9.cx3.hpc.ic.ac.uk:32
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-3-11.cx3.hpc.ic.ac.uk : # cx3-3-9.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork:
+	linux-vdso.so.1 (0x0000152e608c7000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpicxx.so.12 (0x0000152e60481000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x0000152e600c2000)
+	libmpi.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x0000152e5eea6000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x0000152e5eca2000)
+	librt.so.1 => /lib64/librt.so.1 (0x0000152e5ea99000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x0000152e5e879000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x0000152e5e4e4000)
+	libm.so.6 => /lib64/libm.so.6 (0x0000152e5e162000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x0000152e5df4a000)
+	libc.so.6 => /lib64/libc.so.6 (0x0000152e5db88000)
+	libfabric.so.1 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x0000152e5d946000)
+	/lib64/ld-linux-x86-64.so.2 (0x0000152e606a1000)
+# mpiexec: launch started at Fri 25 Feb 02:19:49 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/hpc-work/MPI-CourseWork 400
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-3-11.cx3.hpc.ic.ac.uk:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31)
+(cx3-3-9.cx3.hpc.ic.ac.uk:32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63)
+
+processor 55 has finished the init 
+processor 55 has started the find 
+processor 55 has finished the find 
+processor 55 starts to init location info 
+processor 55 ends to init location info 
+processor 55 starts to half_sinusoidal_intitial_disturbance 
+processor 57 has finished the init 
+processor 57 has started the find 
+processor 57 has finished the find 
+processor 57 starts to init location info 
+processor 57 ends to init location info 
+processor 57 starts to half_sinusoidal_intitial_disturbance 
+processor 57 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 57 starts to grid_to_file 
+processor 57 ends to grid_to_file 
+processor 36 has finished the init 
+processor 36 has started the find 
+processor 36 has finished the find 
+processor 36 starts to init location info 
+processor 36 ends to init location info 
+processor 36 starts to half_sinusoidal_intitial_disturbance 
+processor 53 has finished the init 
+processor 53 has started the find 
+processor 53 has finished the find 
+processor 53 starts to init location info 
+processor 53 ends to init location info 
+processor 53 starts to half_sinusoidal_intitial_disturbance 
+processor 55 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 55 starts to grid_to_file 
+processor 55 ends to grid_to_file 
+processor 4 has finished the init 
+processor 4 has started the find 
+processor 4 has finished the find 
+processor 4 starts to init location info 
+processor 4 ends to init location info 
+processor 4 starts to half_sinusoidal_intitial_disturbance 
+processor 34 has finished the init 
+processor 34 has started the find 
+processor 34 has finished the find 
+processor 34 starts to init location info 
+processor 34 ends to init location info 
+processor 8 has finished the init 
+processor 8 has started the find 
+processor 8 has finished the find 
+processor 8 starts to init location info 
+processor 8 ends to init location info 
+processor 8 starts to half_sinusoidal_intitial_disturbance 
+processor 8 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 8 starts to grid_to_file 
+processor 8 ends to grid_to_file 
+processor 53 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 53 starts to grid_to_file 
+processor 53 ends to grid_to_file 
+processor 4 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 4 starts to grid_to_file 
+processor 4 ends to grid_to_file 
+processor 34 starts to half_sinusoidal_intitial_disturbance 
+processor 30 has finished the init 
+processor 30 has started the find 
+processor 30 has finished the find 
+processor 30 starts to init location info 
+processor 30 ends to init location info 
+processor 30 starts to half_sinusoidal_intitial_disturbance 
+processor 36 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 36 starts to grid_to_file 
+processor 36 ends to grid_to_file 
+processor processor 47 has finished the init 
+processor 4745 has finished the init 
+processor 45 has started the find 
+processor 45 has finished the find 
+processor 45 starts to init location info 
+processor  has started the find 
+processor 47 has finished the find 
+processor 47 starts to init location info 
+processor 47 ends to init location info 
+processor 47 starts to half_sinusoidal_intitial_disturbance 
+processor 34 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 34 starts to grid_to_file 
+processor 34 ends to grid_to_file 
+45 ends to init location info 
+processor 45 starts to half_sinusoidal_intitial_disturbance 
+processor 47 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 47 starts to grid_to_file 
+processor 47 ends to grid_to_file 
+processor processor 45 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 45 starts to grid_to_file 
+processor 45 ends to grid_to_file 
+59 has finished the init 
+processor 59 has started the find 
+processor 59 has finished the find 
+processor 59 starts to init location info 
+processor 59 ends to init location info 
+processor 48 has finished the init 
+processor 48 has started the find 
+processor 48 has finished the find 
+processor 48 starts to init location info 
+processor 48 ends to init location info 
+processor 48 starts to half_sinusoidal_intitial_disturbance 
+processor 48 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 48 starts to grid_to_file 
+processor 48 ends to grid_to_file 
+processor 59 starts to half_sinusoidal_intitial_disturbance 
+processor 59 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 59 starts to grid_to_file 
+processor 59 ends to grid_to_file 
+processor 63 has finished the init 
+processor 63 has started the find 
+processor 63 has finished the find 
+processor 63 starts to init location info 
+processor 63 ends to init location info 
+processor 63 starts to half_sinusoidal_intitial_disturbance 
+processor 63 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 63 starts to grid_to_file 
+processor 63 ends to grid_to_file 
+processor 30 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 30 starts to grid_to_file 
+processor 30 ends to grid_to_file 
+processor 33 has finished the init 
+processor 33 has started the find 
+processor 33 has finished the find 
+processor 33 starts to init location info 
+processor 33 ends to init location info 
+processor 33 starts to half_sinusoidal_intitial_disturbance 
+processor 19 has finished the init 
+processor 19 has started the find 
+processor 19 has finished the find 
+processor 19 starts to init location info 
+processor 19 ends to init location info 
+processor 19 starts to half_sinusoidal_intitial_disturbance 
+processor 43 has finished the init 
+processor 43 has started the find 
+processor 43 has finished the find 
+processor 43 starts to init location info 
+processor 43 ends to init location info 
+processor 43 starts to half_sinusoidal_intitial_disturbance 
+processor 18 has finished the init processor 50 has finished the init 
+processor 50 has started the find 
+processor 50 has finished the find 
+processor 50 starts to init location info 
+processor 50 ends to init location info 
+processor 50 starts to half_sinusoidal_intitial_disturbance 
+processor 26 has finished the init 
+processor 26 has started the find 
+processor 26 has finished the find 
+processor 26 starts to init location info 
+processor 26 ends to init location info 
+processor 51 has finished the init 
+processor 51 has started the find 
+processor 51 has finished the find 
+processor 51 starts to init location info 
+processor 51 ends to init location info 
+processor 51 starts to half_sinusoidal_intitial_disturbance 
+processor 51 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 51 starts to grid_to_file 
+processor 51 ends to grid_to_file 
+processor 13 has finished the init 
+processor 13 has started the find 
+processor 13 has finished the find 
+processor 13 starts to init location info 
+processor 13 ends to init location info processor 33 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 33 starts to grid_to_file 
+processor 33 ends to grid_to_file 
+
+processor 18 has started the find 
+processor 18 has finished the find 
+processor 18 starts to init location info 
+processor 18 ends to init location info 
+processor 18 starts to half_sinusoidal_intitial_disturbance 
+processor processor 26 starts to half_sinusoidal_intitial_disturbance 
+processor 50 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 50 starts to grid_to_file 
+processor 50 ends to grid_to_file 
+processor processor 43 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 43 starts to grid_to_file 
+processor 43 ends to grid_to_file 
+
+processor 13 starts to half_sinusoidal_intitial_disturbance 
+processor 58 has finished the init 38 has finished the init 
+processor 38 has started the find 
+processor 38 has finished the find 
+processor 38 starts to init location info 
+processor 
+processor 58 has started the find 
+processor 58 has finished the find 
+processor 58 starts to init location info 
+processor 58 ends to init location info 
+38 ends to init location info 
+processor 58 starts to half_sinusoidal_intitial_disturbance 
+processor 58 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 58 starts to grid_to_file 
+processor 58 ends to grid_to_file 
+processor 38 starts to half_sinusoidal_intitial_disturbance 
+processor 52processor 37 has finished the init 
+processor 37 has started the find 
+processor 38 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 38 starts to grid_to_file 
+processor 38 ends to grid_to_file 
+ has finished the init 
+processor 52 has started the find 
+processor 52 has finished the find 
+processor 52 starts to init location info 
+processor 52 ends to init location info 
+processor 19 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 19 starts to grid_to_file 
+processor 19 ends to grid_to_file 
+processor 37 has finished the find 
+processor 37 starts to init location info 
+processor 37 ends to init location info 
+11 has finished the init 
+processor 11 has started the find 
+processor 11 has finished the find 
+processor 11 starts to init location info 
+processor 11 ends to init location info 
+processor 54 has finished the init processor 10 has finished the init 
+processor 10 has started the find processor 61 has finished the init 
+processor 61 has started the find 
+processor 61 has finished the find 
+processor processor 13 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 13 starts to grid_to_file 
+processor 13 ends to grid_to_file 
+processor 37 starts to half_sinusoidal_intitial_disturbance 
+processor 26 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 26 starts to grid_to_file 
+processor 26 ends to grid_to_file 
+processor 52 starts to half_sinusoidal_intitial_disturbance 
+
+processor 10 has finished the find 
+processor 10 starts to init location info 
+processor 10 ends to init location info 
+
+processor 54 has started the find 
+processor 54 has finished the find 
+processor 54 starts to init location info 
+processor 54 ends to init location info 
+processor 11 starts to half_sinusoidal_intitial_disturbance 
+61 starts to init location info 
+processor 61 ends to init location info 
+processor 61processor processor 32 has finished the init processor 18 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 18 starts to grid_to_file 
+processor 18 ends to grid_to_file 
+processor 52 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 52 starts to grid_to_file 
+processor 52 ends to grid_to_file 
+processor 10 starts to half_sinusoidal_intitial_disturbance 
+processor 12 has finished the init 
+processor 12 has started the find 
+processor 12 starts to half_sinusoidal_intitial_disturbance 
+processor 11 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 11 starts to grid_to_file 
+processor 11 ends to grid_to_file 
+processor 62 has finished the init 
+ has finished the find 
+processor 12 starts to init location info 
+processor 12 ends to init location info 
+
+processor 32 has started the find 
+processor 32 has finished the find 
+processor 32 starts to init location info 
+processor 32 ends to init location info 
+processor 23 has finished the init 
+processor 23 has started the find 
+processor 23 has finished the find 
+processor 37 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 37 starts to grid_to_file 
+processor 37 ends to grid_to_file 
+processor 23 starts to init location info 
+processor 23 ends to init location info 
+processor 54 starts to half_sinusoidal_intitial_disturbance 
+processor 2 has finished the init processor 62 has started the find 
+processor 62 has finished the find 
+processor 62 starts to init location info 
+processor 62 ends to init location info 
+processor 10 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 10 starts to grid_to_file 
+processor 10 ends to grid_to_file 
+processor processor 12 starts to half_sinusoidal_intitial_disturbance 
+processor 
+processor 2 has started the find 
+processor 2 has finished the find 
+processor 2 starts to init location info 56 has finished the init 
+processor 56 has started the find 
+processor 56 has finished the find 
+processor 56 starts to init location info 
+processor 56 ends to init location info 
+processor 23 starts to half_sinusoidal_intitial_disturbance 
+processor 61 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 61 starts to grid_to_file 
+processor 61 ends to grid_to_file 
+
+processor 2 ends to init location info 
+processor 62 starts to half_sinusoidal_intitial_disturbance 
+processor 62 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 62 starts to grid_to_file 
+processor 62 ends to grid_to_file 
+processor 12 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 12 starts to grid_to_file 
+processor 12 ends to grid_to_file 
+processor 32 starts to half_sinusoidal_intitial_disturbance 
+processor 23 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 23 starts to grid_to_file 
+processor 23 ends to grid_to_file 
+processor 35 has finished the init 
+processor 35 has started the find processor 2 starts to half_sinusoidal_intitial_disturbance 
+processor 2 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 2 starts to grid_to_file 
+processor 2 ends to grid_to_file 
+processor 39 has finished the init processor 21 has finished the init 
+processor 21 has started the find 
+processor 21 has finished the find 
+processor 21 starts to init location info 
+processor 21 ends to init location info 
+processor 21 starts to half_sinusoidal_intitial_disturbance 
+processor 21 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 21 starts to grid_to_file 
+processor 21 ends to grid_to_file 
+40 has finished the init 
+processor 40 has started the find 
+processor 40 has finished the find 
+processor 40 starts to init location info 
+processor 40 ends to init location info 
+processor 7 has finished the init 
+processor 7 has started the find 
+processor 7 has finished the find 
+processor 7 starts to init location info 
+processor 7 ends to init location info 
+processor 7 starts to half_sinusoidal_intitial_disturbance 
+processor 7 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 7 starts to grid_to_file 
+processor 7 ends to grid_to_file 
+42 has finished the init 
+processor 42 has started the find 
+processor 42 has finished the find 
+processor 42 starts to init location info 
+processor 42 ends to init location info 
+processor 24 has finished the init 
+processor 24 has started the find 
+processor 24 has finished the find 
+processor 24 starts to init location info processor 46 has finished the init 
+processor 46 has started the find 
+processor 46 has finished the find 
+processor 46 starts to init location info 
+processor 46 ends to init location info 
+processor 46 starts to half_sinusoidal_intitial_disturbance 
+
+processor 24 ends to init location info 
+processor 24 starts to half_sinusoidal_intitial_disturbance 
+processor 49 has finished the init 
+processor 49 has started the find 
+processor 49 has finished the find 
+processor 49 starts to init location info 
+processor 49 ends to init location info 
+processor 16 has finished the init 
+processor 16 has started the find processor 54 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 54 starts to grid_to_file 
+processor 54 ends to grid_to_file 
+processor 20 has finished the init 
+processor processor 56 starts to half_sinusoidal_intitial_disturbance 
+processor 56 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 56 starts to grid_to_file 
+processor 56 ends to grid_to_file 
+processor 24 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 24 starts to grid_to_file 
+processor 24 ends to grid_to_file 
+
+processor 35 has finished the find 
+processor 35 starts to init location info 
+processor 35 ends to init location info 
+processor 35 starts to half_sinusoidal_intitial_disturbance 
+processor 25 has finished the init 
+processor 25 has started the find 
+processor 25 has finished the find 
+processor 25 starts to init location info 
+processor 25 ends to init location info 
+processor 25 starts to half_sinusoidal_intitial_disturbance 
+
+processor 39 has started the find 
+processor 39 has finished the find 
+processor 39 starts to init location info 
+processor 39 ends to init location info 
+processor 39 starts to half_sinusoidal_intitial_disturbance 
+processor 40 starts to half_sinusoidal_intitial_disturbance 
+processor 40 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 40 starts to grid_to_file 
+processor 40 ends to grid_to_file 
+processor 41 has finished the init 
+processor 41 has started the find 
+processor 41 has finished the find 
+processor 41 starts to init location info 
+processor 41 ends to init location info 
+processor 1 has finished the init 
+processor 1 has started the find 
+processor 1 has finished the find 
+processor 1 starts to init location info 
+processor 1 location info:
+ local_row: 0   local_col: 1
+ _chunk_row_size: 50 chunk_col_size: 50
+ _col_low_index: 50 _col_high_index: processor 42 starts to half_sinusoidal_intitial_disturbance 
+processor 42 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 42 starts to grid_to_file 
+processor 42 ends to grid_to_file 
+processor 3 has finished the init 
+processor 3 has started the find 
+processor 3 has finished the find 
+processor 3 starts to init location info 
+processor 3 ends to init location info 
+processor 49 starts to half_sinusoidal_intitial_disturbance 
+processor 49 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 49 starts to grid_to_file 
+processor 49 ends to grid_to_file 
+
+processor 16 has finished the find 
+processor 16 starts to init location info 
+processor 16 ends to init location info 
+processor 16 starts to half_sinusoidal_intitial_disturbance 
+processor 16 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 16 starts to grid_to_file 
+processor 16 ends to grid_to_file 
+processor 32 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 32 starts to grid_to_file 
+processor 32 ends to grid_to_file 
+processor 17 has finished the init 
+processor 17 has started the find 
+processor 17 has finished the find 
+processor 17 starts to init location info 
+processor 17 ends to init location info 
+processor 17 starts to half_sinusoidal_intitial_disturbance 
+processor 17 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 17 starts to grid_to_file 
+processor 17 ends to grid_to_file 
+processor 39 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 39 starts to grid_to_file 
+processor 39 ends to grid_to_file 
+20 has started the find 
+processor 20 has finished the find 
+processor 20 starts to init location info 
+processor 20 ends to init location info 
+processor 20 starts to half_sinusoidal_intitial_disturbance 
+processor 20 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 20 starts to grid_to_file 
+processor 20 ends to grid_to_file 
+processor 41 starts to half_sinusoidal_intitial_disturbance 
+processor 22 has finished the init 
+processor 22 has started the find 
+processor 22 has finished the find 
+processor 22 starts to init location info 
+processor 22 ends to init location info 
+processor 22 starts to half_sinusoidal_intitial_disturbance 
+processor 22 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 22 starts to grid_to_file 
+processor 22 ends to grid_to_file 
+processor 46 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 46 starts to grid_to_file 
+processor 46 ends to grid_to_file 
+processor 25 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 25 starts to grid_to_file 
+processor 25 ends to grid_to_file 
+processor 41 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 41 starts to grid_to_file 
+processor 41 ends to grid_to_file 
+processor 28 has finished the init 
+processor 28 has started the find 
+processor 28 has finished the find 
+processor 28 starts to init location info 
+processor 28 ends to init location info 
+processor 28 starts to half_sinusoidal_intitial_disturbance 
+processor 28 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 28 starts to grid_to_file 
+processor 28 ends to grid_to_file 
+processor 100
+ _row_low_index: 0 _row_high_index: 50
+ ghost_chunk_row_size: 51 ghost_chunk_col_size: 52
+ ghost_col_low_index: 49 ghost_col_high_index: 101
+ ghost_row_low_index: 0 ghost_row_high_index: 51
+ total_size: 2652
+
+processor 1 ends to init location info 
+processor 1 starts to half_sinusoidal_intitial_disturbance 
+processor 1 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 1 starts to grid_to_file 
+processor 1 ends to grid_to_file 
+processor 35 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 35 starts to grid_to_file 
+processor 35 ends to grid_to_file 
+processor 3 starts to half_sinusoidal_intitial_disturbance 
+processor 3 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 3 starts to grid_to_file 
+processor 3 ends to grid_to_file 
+60 has finished the init 
+processor 60 has started the find 
+processor 60 has finished the find 
+processor 60 starts to init location info 
+processor 60 ends to init location info 
+processor 5 has finished the init 
+processor 60 starts to half_sinusoidal_intitial_disturbance 
+processor 14 has finished the init 
+processor 14 has started the find 
+processor 14 has finished the find 
+processor 14 starts to init location info 
+processor 14 ends to init location info 
+processor 14 starts to half_sinusoidal_intitial_disturbance 
+processor 14 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 14 starts to grid_to_file 
+processor 14 ends to grid_to_file 
+processor 60 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 60 starts to grid_to_file 
+processor 60 ends to grid_to_file 
+processor 27 has finished the init 
+processor 27 has started the find 
+processor 27 has finished the find 
+processor 27 starts to init location info 
+processor 27 ends to init location info 
+processor 27 starts to half_sinusoidal_intitial_disturbance 
+processor 27 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 27 starts to grid_to_file 
+processor 27 ends to grid_to_file 
+processor processor 29 has finished the init 
+processor 29 has started the find 
+processor 29 has finished the find 
+processor 29 starts to init location info 
+processor 29 ends to init location info 
+processor 29 starts to half_sinusoidal_intitial_disturbance 
+processor 29 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 29 starts to grid_to_file 
+processor 29 ends to grid_to_file 
+44 has finished the init 
+processor 44 has started the find 
+processor processor 5 has started the find 
+processor 5 has finished the find 
+processor 5 starts to init location info 
+processor 5 ends to init location info 
+processor 5 starts to half_sinusoidal_intitial_disturbance 
+processor 5 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 5 starts to grid_to_file 
+processor 5 ends to grid_to_file 
+44 has finished the find 
+processor 44 starts to init location info 
+processor 44 ends to init location info 
+processor 31 has finished the init 
+processor 31 has started the find 
+processor 31 has finished the find 
+processor 31 starts to init location info 
+processor 31 ends to init location info 
+processor 31 starts to half_sinusoidal_intitial_disturbance 
+processor 31 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 31 starts to grid_to_file 
+processor 31 ends to grid_to_file 
+processor 44 starts to half_sinusoidal_intitial_disturbance 
+processor 44 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 44 starts to grid_to_file 
+processor 44 ends to grid_to_file 
+processor 6 has finished the init 
+processor 6 has started the find 
+processor 6 has finished the find 
+processor 6 starts to init location info 
+processor 6 ends to init location info 
+processor processor 6 starts to half_sinusoidal_intitial_disturbance 
+processor 6 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 6 starts to grid_to_file 
+processor 6 ends to grid_to_file 
+processor 15 has finished the init 
+processor 15 has started the find 
+processor 15 has finished the find 
+processor 15 starts to init location info 
+processor 15 ends to init location info 
+9 has finished the init 
+processor 9 has started the find 
+processor 9 has finished the find 
+processor 9 starts to init location info 
+processor 9 ends to init location info 
+processor 15 starts to half_sinusoidal_intitial_disturbance 
+processor 9 starts to half_sinusoidal_intitial_disturbance 
+processor 9 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 9 starts to grid_to_file 
+processor 9 ends to grid_to_file 
+processor 15 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 15 starts to grid_to_file 
+processor 15 ends to grid_to_file 
+processor 0 has finished the init 
+processor 0 has started the find 
+processor 0 has finished the find 
+processor 0 starts to init location info 
+processor 0 ends to init location info 
+processor 0 starts to half_sinusoidal_intitial_disturbance 
+processor 0 starts to ihalf_sinusoidal_intitial_disturbance 
+processor 0 starts to grid_to_file 
+processor 0 ends to grid_to_file 
+wave_equation (64)   1.218338
+# mpiexec: finished at Fri 25 Feb 02:19:58 GMT 2022

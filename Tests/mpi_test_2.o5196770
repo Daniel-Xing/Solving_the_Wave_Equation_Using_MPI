@@ -1,0 +1,46 @@
+
+# mpiexec: MPI Program startup
+
+
+# mpiexec: Running in job 5196770.pbs at Thu 24 Feb 21:31:59 GMT 2022
+# mpiexec: Fabric configuration:
+# mpiexec: node class CX3
+# mpiexec: libfabric provider mlx
+# mpiexec: libfabric inferface  eth0
+# mpiexec: external collectives 1
+# mpiexec: MPI-IO configuration on / gpfs
+# mpiexec: full path to program is /rds/general/user/dx121/home/mpi-coursework-acse-dx121/Tests/test
+# mpiexec: program arguments are: 
+# mpiexec: 8 ranks allocated via PBS select
+# mpiexec: 1 OpenMP threads / rank allocated by PBS select
+# mpiexec: 8 ranks per node
+# mpiexec: There are 256 cores/node. 8 will be used for this job
+# mpiexec: Job has shared use of the allocated nodes. Disabling process-pinning
+# mpiexec: Node is shared. Disabling process pinning
+# mpiexec: machinefile configured as:
+cx3-3-28.cx3.hpc.ic.ac.uk:8
+#
+# mpiexec: Checking all nodes are ONLINE using ping:
+# mpiexec: All nodes appear ONLINE
+# mpiexec: Checking all nodes are ONLINE using ssh:
+# cx3-3-28.cx3.hpc.ic.ac.uk : # mpiexec: Dynamic linking for /rds/general/user/dx121/home/mpi-coursework-acse-dx121/Tests/test:
+	linux-vdso.so.1 (0x00007fff5c5f2000)
+	libmpicxx.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpicxx.so.12 (0x000014fb268ed000)
+	libmpifort.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/libmpifort.so.12 (0x000014fb2652e000)
+	libmpi.so.12 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/lib/release/libmpi.so.12 (0x000014fb25312000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x000014fb2510e000)
+	librt.so.1 => /lib64/librt.so.1 (0x000014fb24f05000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014fb24ce5000)
+	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x000014fb24950000)
+	libm.so.6 => /lib64/libm.so.6 (0x000014fb245ce000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x000014fb243b6000)
+	libc.so.6 => /lib64/libc.so.6 (0x000014fb23ff4000)
+	libfabric.so.1 => /apps/mpi/intel/2019.8.254/compilers_and_libraries_2020.2.254/linux/mpi/intel64/libfabric/lib/libfabric.so.1 (0x000014fb23db2000)
+	/lib64/ld-linux-x86-64.so.2 (0x000014fb26b0d000)
+# mpiexec: launch started at Thu 24 Feb 21:32:00 GMT 2022
+# mpiexec: launching program...
+# mpiexec: /rds/general/user/dx121/home/mpi-coursework-acse-dx121/Tests/test 
+# mpiexec: PROGRAM OUTPUT FOLLOWS
+(cx3-3-28.cx3.hpc.ic.ac.uk:0,1,2,3,4,5,6,7)
+
+# mpiexec: finished at Thu 24 Feb 21:32:01 GMT 2022

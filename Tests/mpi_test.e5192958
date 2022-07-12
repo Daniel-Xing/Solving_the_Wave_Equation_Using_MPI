@@ -1,0 +1,5 @@
+TestMpi.cpp(46): error: expected a declaration
+  }
+  ^
+
+compilation aborted for TestMpi.cpp (code 2)
